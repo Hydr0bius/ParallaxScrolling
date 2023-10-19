@@ -94,7 +94,7 @@ main{
 }
 .parallax{
     pointer-events: none;
-    transform: translate(-50%, -50%);
+    transition: 0.45s cubic-bezier(.2,.49,.32,.99);
 }
 .bg-img{
     position: absolute;
@@ -196,7 +196,7 @@ main{
     position: absolute;
     z-index: 15;
     top: calc(50% + 133px);
-    left: calc(50% + 736px);
+    left: calc(50% + 627px);
     width: 419px;
     transform: translate(-50%,-50%);
 }
@@ -219,7 +219,7 @@ main{
     position: absolute;
     z-index: 18;
     top: calc(50% + 65px);
-    left: calc(50% - 610px);
+    left: calc(50% - 590px);
     width: 450px;
     transform: translate(-50%, -50%);
 }
